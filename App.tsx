@@ -6,6 +6,8 @@ import CircularProgressIndicator from './src/circularProgressIndicator';
 import ProgressBar from './src/ProgressBar';
 import BarGraph from './src/barGraph';
 import Histogram from './src/histogram';
+import LineGraph from './src/graphs/lineGraph';
+import GesturePanResponder from './src/gestureResponder';
 
 function App(): React.JSX.Element {
   return (
@@ -13,10 +15,11 @@ function App(): React.JSX.Element {
       
       {/* <MoveBallAnimation /> */}
       {/* <FadeInAndOutAnimation /> */}
-      {/* <Text>Hello</Text> */}
       {/* <ProgressBar/> */}
       {/* <BarGraph/> */}
-      <Histogram/>
+      {/* <Histogram/> */}
+      {/* <LineGraph/> */}
+      <GesturePanResponder />
     </SafeAreaView>
   );
 }
